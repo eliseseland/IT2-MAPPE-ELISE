@@ -1,0 +1,3 @@
+# Vern mot kjøretøysfeil og logiske feil i prograemmet
+
+Her kommer tekst....
