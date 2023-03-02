@@ -5,7 +5,7 @@
 Håndtering av kjøretidsfeil i Python gjøres med nøkkelordene try og excpt
 Python forsøker å kjøre kodeblokken som ligger under 'try:', hvis python får en feilmelsing, vil den kjøre kodeblokken som ligger under 'except:'.
 
-´´´python
+```python
 while True:
 try:
     alder = int(input("Alder: "))
@@ -17,12 +17,12 @@ except:
 print("Koden fortsetter)
     
 
-´´´
+```
 
 
 ### Ekseperttips: while-løkke med try-except
 
-´´´python
+```python
 while True:
 try:
     alder = int(input("Alder: "))
@@ -32,7 +32,7 @@ except:
     print("Feil: alder må være et heltall")
 fødselsår = 2022 - alder
 print(f"Fødselsår: {fødselsår} ")
-´´´
+```
 
 
 ## LOgiske feil i programmer
@@ -41,14 +41,14 @@ For å oppdage logiske feil i python-programmet kan vi bruke nøkkelordet 'asser
 
 Eksempel:
 
-´´´python
+```python
 assert 10 > 5 #10 er større enn 5, derfor gjør denne ingenting
 assert 18 > 20 #18 er ikke større enn 20, derfor gir denne en feilmelding
-´´´
+```
 
 Eksempel: test av funksjoner med assert
 
-´´´python
+```python
 def areal(høyde, bredde):
     return høyde * bredde
 
@@ -63,11 +63,11 @@ assert omkrets(3,2) == 10
 assert omkrets(3,3) == 12
 assert omkrets(3,3) == 12
 assert omkrets(3,4) == 14
-´´´
+```
 
 ## Eksperttips: Håndtering av kjøretidsfeil og logisk feil
 
-´´´python
+```python
 while True:
     try:
         alder = int(input("Alder: "))
@@ -77,5 +77,6 @@ while True:
         print("Alder må være et positivt heltall, prøv igjen")
 fødselsår = 2022 - alder
 print(f"fødselsår: {fødselsår}")
+```
 
 
